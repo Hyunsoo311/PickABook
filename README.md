@@ -22,5 +22,10 @@ PickABook is an online book recommendation system providing personalized book re
 - Backend: Flask/Django (Python based web framework)
 - Database: SQLite for storing user preferences and reading history
 - APIs: Google Books API, Open Library API
-- Recommendation Engine: Content-based Filtering and Collaborative Filtering 
+- Recommendation Engine: Content-based Filtering and Collaborative Filtering
 
+# Installation
+```bash
+// Clone the repository
+git clone https://github.com/Hyunsoo311/PickABook.git
+```
