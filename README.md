@@ -28,4 +28,10 @@ PickABook is an online book recommendation system providing personalized book re
 ```bash
 // Clone the repository
 git clone https://github.com/Hyunsoo311/PickABook.git
+
+// Install dependencies
+pip install -r requirements.txt
+
+// Run the application
+python app.py  
 ```
