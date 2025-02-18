@@ -1,37 +1,23 @@
-# PickABook
-PickABook:  An Online Book Recommendation System
+# README.md
+# PickABook: Online Book Recommendation System
 
-# Overview
-PickABook is an online book recommendation system providing personalized book recommendations based on their preferences. Users can input their preferred genre, author, and keywords and system generates personalized list of books based on this information.
+## Overview
+PickABook is an online book recommendation system that suggests personalized books based on user preferences and book history.
 
-# Prototype
-1. API Integration:
-- Write code to fetch book details from Google Books API.
-- API calls to retrieve book metadata like title, author, description, and rating.
-  
-2. Basic Recommendation System:
-- Implementation of content-based filtering using book metadata.
-- Simple logic to recommend books based on user-input keywords and genres.
+## Technologies Used
+- Flask (Backend)
+- SQLite (Database)
+- HTML, CSS, JavaScript (Frontend)
+- Google Books API (External Data Source)
 
-3. Basic Web Interface:
-- A simple Flask/Django-based web page displaying book search results.
-- Search bar allowing users to input queries and receive recommended books.
+## How to Run
+1. Clone the repository: `git clone <repo_url>`
+2. Navigate to the backend folder: `cd backend`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run the backend server: `python app.py`
+5. Open `frontend/index.html` in your browser to access the frontend.
 
-# Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Flask/Django (Python based web framework)
-- Database: SQLite for storing user preferences and reading history
-- APIs: Google Books API, Open Library API
-- Recommendation Engine: Content-based Filtering and Collaborative Filtering
-
-# Installation
-```bash
-// Clone the repository
-git clone https://github.com/Hyunsoo311/PickABook.git
-
-// Install dependencies
-pip install -r requirements.txt
-
-// Run the application
-python app.py  
-```
+# .gitignore
+__pycache__/
+database.db
+*.pyc
